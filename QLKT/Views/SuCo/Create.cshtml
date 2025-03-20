@@ -1,0 +1,32 @@
+﻿@model QLKT.Models.SuCoBatThuong
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Thêm sự cố bất thường";
+}
+
+<h2>Thêm sự cố bất thường</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label>Mã sự cố</label>
+        <input type="text" name="MaSuCo" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Loại sự cố</label>
+        <select name="MaLoaiSuCo" class="form-control">
+            @foreach (var loaiSuCo in ViewBag.LoaiSuCoList as List<QLKT.Models.LoaiSuCo>)
+            {
+                <option value="@loaiSuCo.MaLoaiSuCo">@loaiSuCo.TenLoaiSuCo</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Ngày thi</label>
+        <input type="date" name="NgayThi" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Lưu</button>
+</form>

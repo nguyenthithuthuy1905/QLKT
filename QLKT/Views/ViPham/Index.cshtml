@@ -1,0 +1,28 @@
+﻿@model IEnumerable<QLKT.Models.ViPhamQuyChe>
+
+<h2>Danh sách Vi phạm</h2>
+<a href="/ViPham/Create" class="btn btn-primary">Thêm Vi phạm</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>MSSV</th>
+            <th>Họ tên</th>
+            <th>Loại Vi phạm</th>
+            <th>Nội dung</th>
+            <th>Ngày vi phạm</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MaSV</td>
+                <td>@item.SinhVien.HoLot @item.SinhVien.TenSV</td>
+                <td>@item.LoaiViPham.LoaiViPhamThi</td>
+                <td>@item.NoiDungViPham</td>
+                <td>@item.NgayThi</td>
+            </tr>
+        }
+    </tbody>
+</table>
