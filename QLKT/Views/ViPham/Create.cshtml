@@ -2,18 +2,89 @@
 
 <h2>Thêm Vi phạm</h2>
 
-<form method="post">
-    <label>Mã sinh viên:</label>
-    <input type="text" name="MaSV" class="form-control" />
+<form method="post" id="viPhamForm">
+    <div class="form-group">
+        <label>Mã sinh viên:</label>
+        <input type="text" id="masv" name="MaSV" class="form-control" placeholder="Nhập MSSV" required />
+    </div>
 
-    <label>Loại vi phạm:</label>
-    <input type="text" name="MaLoaiViPham" class="form-control" />
+    <div class="form-group">
+        <label>Họ và tên:</label>
+        <input type="text" id="hoten" class="form-control" disabled />
+    </div>
 
-    <label>Nội dung:</label>
-    <input type="text" name="NoiDungViPham" class="form-control" />
+    <div class="form-group">
+        <label>Lớp:</label>
+        <input type="text" id="lop" class="form-control" disabled />
+    </div>
 
-    <label>Ngày thi:</label>
-    <input type="date" name="NgayThi" class="form-control" />
+    <div class="form-group">
+        <label>Môn học:</label>
+        <input type="text" id="monhoc" class="form-control" disabled />
+    </div>
+
+    <div class="form-group">
+        <label>Ngày thi:</label>
+        <input type="date" id="ngaythi" name="NgayThi" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Loại vi phạm:</label>
+        <select name="MaLoaiViPham" class="form-control" required>
+            <option value="1">Gian lận thi cử</option>
+            <option value="2">Sử dụng tài liệu</option>
+            <option value="3">Trao đổi bài</option>
+            <option value="4">Quấy rối phòng thi</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Nội dung:</label>
+        <textarea name="NoiDungViPham" class="form-control" rows="3" placeholder="Nhập nội dung vi phạm..." required></textarea>
+    </div>
 
     <button type="submit" class="btn btn-success">Lưu</button>
 </form>
+
+<script>
+    document.getElementById("masv").addEventListener("change", function () {
+        const masv = this.value.trim();
+        if (masv === "") return;
+
+        const encodedMaSV = encodeURIComponent(masv);
+
+        fetch(`/ViPham/GetStudentInfo?maSV=${encodedMaSV}`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("Không tìm thấy dữ liệu sinh viên!");
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log("Dữ liệu API trả về:", data);
+
+                if (data && !data.error) {
+                    document.getElementById("hoten").value = data.hoTen || "Không có tên";
+                    document.getElementById("lop").value = data.maLop || "Không có lớp";
+                    document.getElementById("monhoc").value = data.tenMonHoc || "Không có môn học";
+
+                    // Cập nhật ngày thi nếu có dữ liệu
+                    if (data.ngayThi) {
+                        document.getElementById("ngaythi").valueAsDate = new Date(data.ngayThi);
+                    } else {
+                        document.getElementById("ngaythi").value = "";
+                    }
+                } else {
+                    alert("Không tìm thấy thông tin sinh viên!");
+                    document.getElementById("hoten").value = "";
+                    document.getElementById("lop").value = "";
+                    document.getElementById("monhoc").value = "";
+                    document.getElementById("ngaythi").value = "";
+                }
+            })
+            .catch(error => {
+                console.error("Lỗi:", error);
+                alert("Không tìm thấy sinh viên!");
+            });
+    });
+</script>

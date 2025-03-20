@@ -114,5 +114,31 @@ namespace QLKT.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+        public async Task<IActionResult> GetStudentInfo(string maSV)
+        {
+            var sinhVien = await _context.SinhViens
+                .Where(sv => sv.MASV == maSV)
+                .FirstOrDefaultAsync();
+
+            if (sinhVien != null)
+            {
+                return Json(new
+                {
+                    HoTen = sinhVien.HoLot + " " + sinhVien.TenSV,
+                    MaLop = sinhVien.MaLop,
+                    NgaySinh = sinhVien.NgaySinh.ToString("yyyy-MM-dd"),
+                    NoiSinh = sinhVien.NoiSinh,
+                    CMND = sinhVien.SoCMND,
+                    HoTenCha = sinhVien.HoTenCha,
+                    HoTenMe = sinhVien.HoTenMe,
+                    DienThoai = sinhVien.DienThoai,
+                    DienThoaiBaoTin = sinhVien.DienThoaiBaoTinGap,
+                    Khoa = sinhVien.MaKhoa,
+                    ChuyenNganh = sinhVien.ChuyenNganh
+                });
+            }
+
+            return Json(null);
+        }
     }
 }

@@ -41,5 +41,31 @@ namespace QLKT.Controllers
             }
             return View(viPham);
         }
+
+        [HttpGet]
+        public async Task<IActionResult> GetStudentInfo(string maSV)
+        {
+            var sinhVien = await _context.SinhViens
+                .Where(sv => sv.MASV == maSV)
+                .FirstOrDefaultAsync();
+
+            if (sinhVien == null)
+            {
+                return Json(new { error = "Không tìm thấy sinh viên" });
+            }
+
+            var lichThi = await _context.LichThiSinhViens
+                .Where(lt => lt.MaSV == maSV)
+                .Include(lt => lt.MonHoc)
+                .FirstOrDefaultAsync();
+
+            return Json(new
+            {
+                hoTen = $"{sinhVien.HoLot} {sinhVien.TenSV}",
+                maLop = sinhVien.MaLop ?? "Không có lớp",
+                ngayThi = lichThi?.NgayThi.ToString("yyyy-MM-dd") ?? null,
+                tenMonHoc = lichThi?.MonHoc.TenMonHoc ?? "Không có môn học"
+            });
+        }
     }
 }

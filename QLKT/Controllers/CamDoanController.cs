@@ -62,38 +62,33 @@ namespace QLKT.Controllers
             return RedirectToAction("ChuaBoSung");
         }
 
-        // Phương thức trả về thông tin sinh viên khi nhập MSSV
-        public async Task<IActionResult> GetStudentInfo(string maSV)
-        {
-            var sinhVien = await _context.SinhViens
-                                          .Where(sv => sv.MASV == maSV)
-                                          .FirstOrDefaultAsync();
+       public async Task<IActionResult> GetStudentInfo(string maSV)
+{
+    var sinhVien = await _context.SinhViens
+        .Where(sv => sv.MASV == maSV)
+        .FirstOrDefaultAsync();
 
-            if (sinhVien != null)
-            {
-                // Truy vấn thông tin từ bảng LichThiSinhViens để lấy thông tin về lịch thi của sinh viên
-                var lichThi = await _context.LichThiSinhViens
-                                             .Where(lt => lt.MaSV == maSV)
-                                             .Include(lt => lt.MonHoc)
-                                             .Include(lt => lt.PhongThi)
-                                             .FirstOrDefaultAsync();
+    if (sinhVien == null)
+    {
+        return Json(null);
+    }
 
-                // Trả về thông tin sinh viên kèm với lịch thi, môn học và phòng thi
-                return Json(new
-                {
-                    HoTen = sinhVien.HoLot + " " + sinhVien.TenSV,
-                    MaLop = sinhVien.MaLop,
-                    NgayThi = lichThi?.NgayThi.ToString("yyyy-MM-dd"), // Đảm bảo NgayThi được định dạng đúng
-                    PhongThi = lichThi?.PhongThi.TenPH ?? "Chưa xác định", // Lấy tên phòng thi
-                    GioThi = lichThi?.GioThi.ToString(@"hh\:mm"), // Đảm bảo giờ thi có định dạng hợp lệ
-                    HoLotSV = sinhVien.HoLot,
-                    TenSV = sinhVien.TenSV,
-                    TenMonHoc = lichThi?.MonHoc.TenMonHoc ?? "Chưa xác định" // Lấy tên môn học
-                });
-            }
+    var lichThi = await _context.LichThiSinhViens
+        .Where(lt => lt.MaSV == maSV)
+        .Include(lt => lt.MonHoc)
+        .Include(lt => lt.PhongThi)
+        .FirstOrDefaultAsync();
 
-            return Json(null);  // Nếu không tìm thấy sinh viên
-        }
+    return Json(new
+    {
+        hoTen = sinhVien.HoLot + " " + sinhVien.TenSV,
+        maLop = sinhVien.MaLop ?? "Không có lớp",
+        ngayThi = lichThi?.NgayThi.ToString("yyyy-MM-dd") ?? "Không có lịch thi",
+        gioThi = lichThi?.GioThi.ToString(@"hh\:mm") ?? "Không có giờ thi",
+        phongThi = lichThi?.PhongThi.TenPH ?? "Không có phòng thi",
+        tenMonHoc = lichThi?.MonHoc.TenMonHoc ?? "Không có môn học"
+    });
+}
 
     }
 }

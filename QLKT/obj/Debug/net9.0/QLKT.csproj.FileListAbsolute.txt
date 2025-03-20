@@ -283,3 +283,4 @@ C:\Users\ASUS\Desktop\C#\QLKT\QLKT\obj\Debug\net9.0\QLKT.genruntimeconfig.cache
 C:\Users\ASUS\Desktop\C#\QLKT\QLKT\obj\Debug\net9.0\ref\QLKT.dll
 C:\Users\ASUS\Desktop\C#\QLKT\QLKT\obj\Debug\net9.0\compressed\1m16igcc0h-qeqb1rn06e.gz
 C:\Users\ASUS\Desktop\C#\QLKT\QLKT\obj\Debug\net9.0\compressed\34ia7l0g7f-lrkvtfdg3s.gz
+C:\Users\ASUS\Desktop\C#\QLKT\QLKT\obj\Debug\net9.0\QLKT.sourcelink.json
