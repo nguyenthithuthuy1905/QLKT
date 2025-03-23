@@ -51,6 +51,35 @@ namespace QLKT.Areas.Admin.Controllers
 
             return RedirectToAction("ChuaBoSung");
         }
+        [HttpPost]
+        public async Task<IActionResult> ThemCamDoan(string maSinhVien)
+        {
+            if (string.IsNullOrEmpty(maSinhVien))
+            {
+                return BadRequest();
+            }
+
+            var sinhVien = await _context.SinhViens.FindAsync(maSinhVien);
+            if (sinhVien == null)
+            {
+                return NotFound();
+            }
+
+            var camDoan = new CamDoan
+            {
+                MaSV = sinhVien.MASV,
+                NgayThi = DateTime.Now,
+                NoiDungCamDoan = "Đã bổ sung cam đoan",
+                MaLop = sinhVien.MaLop // ✅ gán thêm dòng này
+            };
+
+
+            _context.CamDoans.Add(camDoan);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("ChuaBoSung");
+        }
+
 
         public async Task<IActionResult> XoaCamDoan(int maCamDoan)
         {

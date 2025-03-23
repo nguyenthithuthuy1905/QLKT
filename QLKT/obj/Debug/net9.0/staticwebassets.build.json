@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ayWDMPRuFxT5PMgYRxPkg7Ef9ab0QVTeEuUhbPFLinA=",
+  "Hash": "Y9KqBLMnb6SoouncVJ7QR/FvmxiCcfXi5avLof8sOYs=",
   "Source": "QLKT",
   "BasePath": "_content/QLKT",
   "Mode": "Default",
@@ -5475,6 +5475,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\feature.html"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\Images\\Ảnh chân dung.jpg",
+      "SourceId": "QLKT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\",
+      "BasePath": "_content/QLKT",
+      "RelativePath": "Images/Ảnh chân dung#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "204sf2br0e",
+      "Integrity": "vtUXschwsou0Pcse8SD48UavBSkiR/MC5++7qKAzUgY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Ảnh chân dung.jpg"
     },
     {
       "Identity": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\Images\\logo.jpg",
@@ -22174,6 +22195,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-1HkjQSVuV0/ji/X/lGeDTHeagBS0BwopMrHDQuwqgtU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Ảnh chân dung.204sf2br0e.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\Images\\Ảnh chân dung.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30337"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vtUXschwsou0Pcse8SD48UavBSkiR/MC5++7qKAzUgY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 14:48:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "204sf2br0e"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Ảnh chân dung.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vtUXschwsou0Pcse8SD48UavBSkiR/MC5++7qKAzUgY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Ảnh chân dung.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\Images\\Ảnh chân dung.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30337"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vtUXschwsou0Pcse8SD48UavBSkiR/MC5++7qKAzUgY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 14:48:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vtUXschwsou0Pcse8SD48UavBSkiR/MC5++7qKAzUgY="
         }
       ]
     },
@@ -53471,7 +53574,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 20:42:22 GMT"
+          "Value": "Sun, 23 Mar 2025 21:42:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -53524,7 +53627,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 20:42:22 GMT"
+          "Value": "Sun, 23 Mar 2025 21:42:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -53561,7 +53664,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 20:42:22 GMT"
+          "Value": "Sun, 23 Mar 2025 21:42:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -53608,7 +53711,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 20:42:22 GMT"
+          "Value": "Sun, 23 Mar 2025 21:42:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -53669,7 +53772,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 20:42:22 GMT"
+          "Value": "Sun, 23 Mar 2025 21:42:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -53714,7 +53817,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 20:42:22 GMT"
+          "Value": "Sun, 23 Mar 2025 21:42:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -53769,7 +53872,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 20:42:22 GMT"
+          "Value": "Sun, 23 Mar 2025 21:42:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -53830,7 +53933,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 20:42:22 GMT"
+          "Value": "Sun, 23 Mar 2025 21:42:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -53875,7 +53978,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 20:42:22 GMT"
+          "Value": "Sun, 23 Mar 2025 21:42:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -53930,7 +54033,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 20:42:22 GMT"
+          "Value": "Sun, 23 Mar 2025 21:42:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -53983,7 +54086,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 20:42:22 GMT"
+          "Value": "Sun, 23 Mar 2025 21:42:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -54020,7 +54123,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 20:42:22 GMT"
+          "Value": "Sun, 23 Mar 2025 21:42:50 GMT"
         },
         {
           "Name": "Cache-Control",

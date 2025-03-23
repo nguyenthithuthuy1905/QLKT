@@ -1,11 +1,9 @@
-﻿@model QLKT.Models.ViPhamQuyChe
+﻿<form asp-action="Create" asp-controller="ViPham" asp-area="Admin" method="post">
+    @Html.AntiForgeryToken()
 
-<h2>Thêm Vi phạm</h2>
-
-<form method="post" id="viPhamForm">
     <div class="form-group">
         <label>Mã sinh viên:</label>
-        <input type="text" id="masv" name="MaSV" class="form-control" placeholder="Nhập MSSV" required />
+        <input type="text" id="masv" name="MaSV" class="form-control" required />
     </div>
 
     <div class="form-group">
@@ -16,6 +14,7 @@
     <div class="form-group">
         <label>Lớp:</label>
         <input type="text" id="lop" class="form-control" disabled />
+        <input type="hidden" id="malop" name="MaLop" />
     </div>
 
     <div class="form-group">
@@ -29,8 +28,20 @@
     </div>
 
     <div class="form-group">
+        <label>Giờ thi:</label>
+        <input type="time" id="giothi" name="GioThi" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Phòng thi:</label>
+        <input type="text" id="phongthi" class="form-control" disabled />
+        <input type="hidden" id="maph" name="MaPH" />
+    </div>
+
+    <div class="form-group">
         <label>Loại vi phạm:</label>
         <select name="MaLoaiViPham" class="form-control" required>
+            <option value="">--Chọn--</option>
             <option value="1">Gian lận thi cử</option>
             <option value="2">Sử dụng tài liệu</option>
             <option value="3">Trao đổi bài</option>
@@ -40,51 +51,40 @@
 
     <div class="form-group">
         <label>Nội dung:</label>
-        <textarea name="NoiDungViPham" class="form-control" rows="3" placeholder="Nhập nội dung vi phạm..." required></textarea>
+        <textarea name="NoiDungViPham" class="form-control" required></textarea>
     </div>
 
     <button type="submit" class="btn btn-success">Lưu</button>
 </form>
 
+
 <script>
     document.getElementById("masv").addEventListener("change", function () {
         const masv = this.value.trim();
-        if (masv === "") return;
+        if (!masv) return;
 
-        const encodedMaSV = encodeURIComponent(masv);
-
-        fetch(`/ViPham/GetStudentInfo?maSV=${encodedMaSV}`)
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error("Không tìm thấy dữ liệu sinh viên!");
-                }
-                return response.json();
-            })
+        fetch(`/Admin/ViPham/GetStudentInfo?maSV=${encodeURIComponent(masv)}`)
+            .then(response => response.json())
             .then(data => {
-                console.log("Dữ liệu API trả về:", data);
-
                 if (data && !data.error) {
-                    document.getElementById("hoten").value = data.hoTen || "Không có tên";
-                    document.getElementById("lop").value = data.maLop || "Không có lớp";
-                    document.getElementById("monhoc").value = data.tenMonHoc || "Không có môn học";
-
-                    // Cập nhật ngày thi nếu có dữ liệu
-                    if (data.ngayThi) {
-                        document.getElementById("ngaythi").valueAsDate = new Date(data.ngayThi);
-                    } else {
-                        document.getElementById("ngaythi").value = "";
-                    }
+                    document.getElementById("hoten").value = data.hoTen || "";
+                    document.getElementById("lop").value = data.maLop || "";
+                    document.getElementById("malop").value = data.maLop || "";
+                    document.getElementById("monhoc").value = data.tenMonHoc || "";
+                    document.getElementById("phongthi").value = data.tenPhong || "";
+                    document.getElementById("maph").value = data.maPhong || "";
+                    if (data.ngayThi) document.getElementById("ngaythi").value = data.ngayThi;
+                    if (data.gioThi) document.getElementById("giothi").value = data.gioThi;
                 } else {
-                    alert("Không tìm thấy thông tin sinh viên!");
-                    document.getElementById("hoten").value = "";
-                    document.getElementById("lop").value = "";
-                    document.getElementById("monhoc").value = "";
-                    document.getElementById("ngaythi").value = "";
+                    alert("Không tìm thấy sinh viên hoặc lịch thi.");
+                    ["hoten", "lop", "malop", "monhoc", "ngaythi", "giothi", "phongthi", "maph"].forEach(id => {
+                        document.getElementById(id).value = "";
+                    });
                 }
             })
-            .catch(error => {
-                console.error("Lỗi:", error);
-                alert("Không tìm thấy sinh viên!");
+            .catch(err => {
+                console.error(err);
+                alert("Lỗi khi tìm sinh viên.");
             });
     });
 </script>

@@ -129,6 +129,7 @@ wwwroot\css\styles.css
 wwwroot\detail.html
 wwwroot\favicon.ico
 wwwroot\feature.html
+wwwroot\Images\Ảnh chân dung.jpg
 wwwroot\Images\logo.jpg
 wwwroot\Images\Sunflower Mission.html
 wwwroot\Images\Sunflower Mission_files\application-1fdc970349a9035cdec3b3444ae952806ce25da09134f93b14d13f2268a7a5ff.css

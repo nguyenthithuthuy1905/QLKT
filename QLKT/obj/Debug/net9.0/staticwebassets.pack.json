@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets\\Images\\logo.jpg"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\Images\\Ảnh chân dung.jpg",
+      "PackagePath": "staticwebassets\\Images\\Ảnh chân dung.jpg"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\LICENSE.txt",
       "PackagePath": "staticwebassets\\LICENSE.txt"
     },
