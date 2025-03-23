@@ -2,7 +2,19 @@
   "Files": [
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\QLKT.bundle.scp.css",
-      "PackagePath": "staticwebassets\\QLKT.khb2g35ft2.bundle.scp.css"
+      "PackagePath": "staticwebassets\\QLKT.o02ampfiqn.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\401.html",
+      "PackagePath": "staticwebassets\\401.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\404.html",
+      "PackagePath": "staticwebassets\\404.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\500.html",
+      "PackagePath": "staticwebassets\\500.html"
     },
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\Images\\Sunflower Mission.html",
@@ -45,8 +57,32 @@
       "PackagePath": "staticwebassets\\about.html"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\assets\\demo\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\chart-area-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\assets\\demo\\chart-bar-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\chart-bar-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\assets\\demo\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\chart-pie-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\assets\\demo\\datatables-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\datatables-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\assets\\img\\error-404-monochrome.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\error-404-monochrome.svg"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\blog.html",
       "PackagePath": "staticwebassets\\blog.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\charts.html",
+      "PackagePath": "staticwebassets\\charts.html"
     },
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\contact.html",
@@ -61,8 +97,8 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\css\\style.css",
-      "PackagePath": "staticwebassets\\css\\style.css"
+      "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\detail.html",
@@ -177,12 +213,28 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\js\\datatables-simple-demo.js",
+      "PackagePath": "staticwebassets\\js\\datatables-simple-demo.js"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\layout-sidenav-light.html",
+      "PackagePath": "staticwebassets\\layout-sidenav-light.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\layout-static.html",
+      "PackagePath": "staticwebassets\\layout-static.html"
     },
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\lib\\animate\\animate.css",
@@ -505,6 +557,14 @@
       "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\password.html",
+      "PackagePath": "staticwebassets\\password.html"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\price.html",
       "PackagePath": "staticwebassets\\price.html"
     },
@@ -513,12 +573,20 @@
       "PackagePath": "staticwebassets\\quote.html"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\register.html",
+      "PackagePath": "staticwebassets\\register.html"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\service.html",
       "PackagePath": "staticwebassets\\service.html"
     },
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\startup-website-template.jpg",
       "PackagePath": "staticwebassets\\startup-website-template.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\tables.html",
+      "PackagePath": "staticwebassets\\tables.html"
     },
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\team.html",

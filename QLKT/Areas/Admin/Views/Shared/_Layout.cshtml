@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Quản Lý Khảo Thí</title>
+
+    <!-- SB Admin CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
+    <link href="~/css/styles.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+</head>
+<body class="sb-nav-fixed">
+    <nav class="sb-topnav navbar navbar-expand navbar-White bg-White">
+        <div class="d-flex align-items-center">
+           
+            <a class="navbar-brand" href="/">
+                <img src="~/Images/logo.jpg" alt="Logo" style="height: 57.5px; object-fit: contain; background-color: black; padding: 2px;" />
+            </a>
+           
+        </div>
+        <div class="text-dark fw-bold pe-3 ps-3" style="white-space: nowrap; font-size: 1.1rem;">
+            PHÒNG ĐÀO TẠO - QUẢN LÝ KHẢO THÍ
+        </div>
+        <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle"><i class="fas fa-bars"></i></button>
+        <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+            <div class="input-group">
+                <input class="form-control" type="text" placeholder="Tìm kiếm..." />
+                <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
+            </div>
+        </form>
+        <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown">
+                    <i class="fas fa-user fa-fw"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Cài đặt</a></li>
+                    <li><a class="dropdown-item" href="#">Nhật ký</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                        <form asp-area="Identity" asp-page="/Account/Logout" method="post">
+                            <button type="submit" class="dropdown-item">Đăng xuất</button>
+                        </form>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="layoutSidenav">
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    @* <div class="sidebar-header text-center my-3"> *@
+                    @*     <img src="~/Images/logo.jpg" alt="HUTECH Logo" class="img-fluid" style="width: 100%; padding: 0; margin: 0;" /> *@
+                    @* </div> *@
+
+                    <div class="nav">
+                        <div class="sb-sidenav-menu-heading">Chức năng</div>
+                        <a class="nav-link" href="/">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            Dashboard - Thống kê
+                        </a>
+                        <a class="nav-link" href="/CamDoan/chuabosung">📁 Cam đoan chưa bổ sung</a>
+                        <a class="nav-link" href="/ViPham">⚠️ Vi phạm quy chế thi</a>
+                        <a class="nav-link" href="/SuCo/Index">🚨 Sự cố bất thường</a>
+                        <a class="nav-link" href="/SinhVien/Index">🔍 Tìm kiếm sinh viên</a>
+                        <a class="nav-link" href="/Import/Index">📅 Import dữ liệu</a>
+                        <a class="nav-link" href="/Settings/Index?id=2280603167">⚙️ Cài đặt</a>
+                    </div>
+                </div>
+                <div class="sb-sidenav-footer">
+                    <div class="small">Đăng nhập với tư cách:</div>
+                    Admin
+                </div>
+            </nav>
+        </div>
+
+        <div id="layoutSidenav_content">
+            <main>
+                <div class="container-fluid px-4">
+                   
+                    @RenderBody()
+                </div>
+            </main>
+            <footer class="py-4 bg-light mt-auto">
+                <div class="container-fluid px-4">
+                    <div class="d-flex align-items-center justify-content-between small">
+                        <div class="text-muted">Copyright &copy; Quản lý khảo thí 2025</div>
+                        <div>
+                            <a href="#">Chính sách bảo mật</a>
+                            &middot;
+                            <a href="#">Điều khoản</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- JS Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="~/js/scripts.js"></script>
+</body>
+</html>

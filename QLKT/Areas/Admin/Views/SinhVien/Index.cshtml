@@ -1,0 +1,115 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Tìm kiếm sinh viên";
+}
+
+<h2>Nhập Thông Tin</h2>
+
+<form id="formSinhVien">
+    <div class="form-group">
+        <label for="masv">Mã số sinh viên</label>
+        <input type="text" id="masv" class="form-control" placeholder="Nhập MSSV" />
+    </div>
+</form>
+
+<div class="container">
+    <h4>Thông tin sinh viên</h4>
+    <div class="row">
+        <div class="col-md-6">
+            <label>Họ và tên</label>
+            <input type="text" id="hoten" class="form-control" disabled />
+        </div>
+        <div class="col-md-6">
+            <label>Lớp</label>
+            <input type="text" id="lop" class="form-control" disabled />
+        </div>
+        <div class="col-md-6">
+            <label>Niên khóa</label>
+            <input type="text" id="nienKhoa" class="form-control" disabled />
+        </div>
+        <div class="col-md-6">
+            <label>Giới tính</label>
+            <input type="text" id="gioiTinh" class="form-control" disabled />
+        </div>
+        <div class="col-md-6">
+            <label>Ngày sinh</label>
+            <input type="text" id="ngaySinh" class="form-control" disabled />
+        </div>
+        <div class="col-md-6">
+            <label>Nơi sinh</label>
+            <input type="text" id="noiSinh" class="form-control" disabled />
+        </div>
+        <div class="col-md-6">
+            <label>Số CMND</label>
+            <input type="text" id="soCMND" class="form-control" disabled />
+        </div>
+        <div class="col-md-6">
+            <label>Họ tên cha</label>
+            <input type="text" id="hoTenCha" class="form-control" disabled />
+        </div>
+        <div class="col-md-6">
+            <label>Họ tên mẹ</label>
+            <input type="text" id="hoTenMe" class="form-control" disabled />
+        </div>
+        <div class="col-md-6">
+            <label>Điện thoại</label>
+            <input type="text" id="dienThoai" class="form-control" disabled />
+        </div>
+        <div class="col-md-6">
+            <label>Điện thoại báo tin</label>
+            <input type="text" id="dienThoaiBaoTin" class="form-control" disabled />
+        </div>
+        <div class="col-md-6">
+            <label>Khoa</label>
+            <input type="text" id="khoa" class="form-control" disabled />
+        </div>
+        <div class="col-md-6">
+            <label>Chuyên ngành</label>
+            <input type="text" id="chuyenNganh" class="form-control" disabled />
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById("masv").addEventListener("change", function () {
+        const masv = this.value.trim();
+        if (masv === "") return;
+
+        // Mã hóa MSSV để tránh lỗi URL
+        const encodedMaSV = encodeURIComponent(masv);
+
+        fetch(`/SinhVien/GetStudentInfo?maSV=${encodedMaSV}`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("Không tìm thấy dữ liệu!");
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log("Dữ liệu API trả về:", data);
+
+                if (data && !data.error) {
+                    document.getElementById("hoten").value = data.hoTen || "Không có tên";
+                    document.getElementById("lop").value = data.maLop || "Không có lớp";
+                    document.getElementById("nienKhoa").value = data.nienKhoa || "Không xác định";
+                    document.getElementById("gioiTinh").value = data.gioiTinh || "Không xác định";
+                    document.getElementById("ngaySinh").value = data.ngaySinh || "Không có ngày sinh";
+                    document.getElementById("noiSinh").value = data.noiSinh || "Không xác định";
+                    document.getElementById("soCMND").value = data.soCMND || "Không xác định";
+                    document.getElementById("hoTenCha").value = data.hoTenCha || "Không có thông tin";
+                    document.getElementById("hoTenMe").value = data.hoTenMe || "Không có thông tin";
+                    document.getElementById("dienThoai").value = data.dienThoai || "Không có số";
+                    document.getElementById("dienThoaiBaoTin").value = data.dienThoaiBaoTin || "Không có số";
+                    document.getElementById("khoa").value = data.khoa || "Không có khoa";
+                    document.getElementById("chuyenNganh").value = data.chuyenNganh || "Không có chuyên ngành";
+                } else {
+                    alert("Không tìm thấy thông tin sinh viên!");
+                    document.querySelectorAll("input").forEach(input => input.value = "");
+                }
+            })
+            .catch(error => {
+                console.error("Lỗi:", error);
+                alert("Không tìm thấy sinh viên!");
+            });
+    });
+</script>

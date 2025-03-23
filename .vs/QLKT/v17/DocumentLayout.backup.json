@@ -3,88 +3,220 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\controllers\\camdoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\controllers\\camdoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\views\\camdoan\\chuabosung.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\views\\camdoan\\chuabosung.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\controllers\\sinhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\controllers\\sinhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\views\\camdoan\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\views\\camdoan\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\views\\vipham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\views\\vipham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\views\\vipham\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\views\\vipham\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\controllers\\viphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\controllers\\viphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\models\\viphamquyche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\models\\viphamquyche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\views\\suco\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\views\\suco\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\views\\sinhvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\views\\sinhvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\models\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\models\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\models\\camdoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\models\\camdoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\models\\phongthi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\models\\phongthi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\models\\lichthisinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\models\\lichthisinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\views\\settings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\views\\settings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\views\\settings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\views\\settings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\views\\suco\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\views\\suco\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\views\\vipham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\views\\vipham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\views\\sinhvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\views\\sinhvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\views\\import\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\views\\import\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\models\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\models\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\views\\camdoan\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\views\\camdoan\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\views\\camdoan\\chuabosung.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\views\\camdoan\\chuabosung.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\views\\sinhvien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\views\\sinhvien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\views\\sinhvien\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\views\\sinhvien\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\views\\sinhvien\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\views\\sinhvien\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\views\\suco\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\views\\suco\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\views\\suco\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\views\\suco\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\models\\viphamquyche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\models\\viphamquyche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\models\\sucobatthuong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\models\\sucobatthuong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\models\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\models\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\models\\phongthi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\models\\phongthi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\models\\phancongcoithi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\models\\phancongcoithi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\models\\noidungcamdoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\models\\noidungcamdoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\migrations\\20250322073355_extendidentityuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\migrations\\20250322073355_extendidentityuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\controllers\\viphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\controllers\\viphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\controllers\\sucocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\controllers\\sucocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\controllers\\sinhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\controllers\\sinhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\controllers\\importcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\controllers\\importcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\admin\\controllers\\camdoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\admin\\controllers\\camdoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\models\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\models\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\models\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\models\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|c:\\users\\asus\\desktop\\c#\\qlkt\\qlkt\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F468B21B-F96F-40AB-AC92-21386704A6A6}|QLKT\\QLKT.csproj|solutionrelative:qlkt\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,7 +226,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 40,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,167 +246,113 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "QLKT\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "QLKT\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T08:13:21.371Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\index.html",
-              "RelativeDocumentMoniker": "QLKT\\wwwroot\\index.html",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\index.html",
-              "RelativeToolTip": "QLKT\\wwwroot\\index.html",
-              "ViewState": "AgIAABQDAAAAAAAAAAAtwEIDAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-03-20T02:46:27.564Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ViPhamQuyChe.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Models\\ViPhamQuyChe.cs",
-              "RelativeDocumentMoniker": "QLKT\\Models\\ViPhamQuyChe.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Models\\ViPhamQuyChe.cs",
-              "RelativeToolTip": "QLKT\\Models\\ViPhamQuyChe.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T16:58:18.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Views\\ViPham\\Create.cshtml",
-              "RelativeDocumentMoniker": "QLKT\\Views\\ViPham\\Create.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Views\\ViPham\\Create.cshtml",
-              "RelativeToolTip": "QLKT\\Views\\ViPham\\Create.cshtml",
-              "ViewState": "AgIAADEAAAAAAAAAAAAqwFAAAABBAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\ViPham\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Views\\ViPham\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\ViPham\\Index.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Views\\ViPham\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T16:56:30.155Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "QLKT\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "QLKT\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T16:56:13.976Z",
+              "WhenOpened": "2025-03-23T20:19:16.461Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Views\\CamDoan\\Add.cshtml",
-              "RelativeDocumentMoniker": "QLKT\\Views\\CamDoan\\Add.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Views\\CamDoan\\Add.cshtml",
-              "RelativeToolTip": "QLKT\\Views\\CamDoan\\Add.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAQwE4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T16:54:59.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Views\\ViPham\\Index.cshtml",
-              "RelativeDocumentMoniker": "QLKT\\Views\\ViPham\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Views\\ViPham\\Index.cshtml",
-              "RelativeToolTip": "QLKT\\Views\\ViPham\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T16:52:02.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ViPhamController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Controllers\\ViPhamController.cs",
-              "RelativeDocumentMoniker": "QLKT\\Controllers\\ViPhamController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Controllers\\ViPhamController.cs",
-              "RelativeToolTip": "QLKT\\Controllers\\ViPhamController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAuwEEAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T16:51:47.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Views\\SuCo\\Index.cshtml",
-              "RelativeDocumentMoniker": "QLKT\\Views\\SuCo\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Views\\SuCo\\Index.cshtml",
-              "RelativeToolTip": "QLKT\\Views\\SuCo\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T16:42:32.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Views\\SinhVien\\Index.cshtml",
-              "RelativeDocumentMoniker": "QLKT\\Views\\SinhVien\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Views\\SinhVien\\Index.cshtml",
-              "RelativeToolTip": "QLKT\\Views\\SinhVien\\Index.cshtml",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAqwGgAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T16:34:52.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SinhVienController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Controllers\\SinhVienController.cs",
-              "RelativeDocumentMoniker": "QLKT\\Controllers\\SinhVienController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Controllers\\SinhVienController.cs",
-              "RelativeToolTip": "QLKT\\Controllers\\SinhVienController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAnwIQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T16:33:55.421Z",
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "QLKT\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\wwwroot\\index.html",
+              "RelativeToolTip": "QLKT\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-23T20:12:03.601Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "CamDoan.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Models\\CamDoan.cs",
-              "RelativeDocumentMoniker": "QLKT\\Models\\CamDoan.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Models\\CamDoan.cs",
-              "RelativeToolTip": "QLKT\\Models\\CamDoan.cs",
+              "Title": "SD.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Models\\SD.cs",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Models\\SD.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Models\\SD.cs",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Models\\SD.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T15:59:03.863Z"
+              "WhenOpened": "2025-03-23T18:17:53.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "QLKT\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAcwH0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T18:15:11.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\appsettings.json",
+              "RelativeDocumentMoniker": "QLKT\\appsettings.json",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\appsettings.json",
+              "RelativeToolTip": "QLKT\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-23T18:05:38.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ViPhamQuyChe.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Models\\ViPhamQuyChe.cs",
+              "RelativeDocumentMoniker": "QLKT\\Models\\ViPhamQuyChe.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Models\\ViPhamQuyChe.cs",
+              "RelativeToolTip": "QLKT\\Models\\ViPhamQuyChe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T18:05:26.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SuCoBatThuong.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Models\\SuCoBatThuong.cs",
+              "RelativeDocumentMoniker": "QLKT\\Models\\SuCoBatThuong.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Models\\SuCoBatThuong.cs",
+              "RelativeToolTip": "QLKT\\Models\\SuCoBatThuong.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T18:05:20.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SinhVien.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Models\\SinhVien.cs",
+              "RelativeDocumentMoniker": "QLKT\\Models\\SinhVien.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Models\\SinhVien.cs",
+              "RelativeToolTip": "QLKT\\Models\\SinhVien.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T18:05:12.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "PhongThi.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Models\\PhongThi.cs",
               "RelativeDocumentMoniker": "QLKT\\Models\\PhongThi.cs",
@@ -282,106 +360,556 @@
               "RelativeToolTip": "QLKT\\Models\\PhongThi.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T05:07:04.176Z"
+              "WhenOpened": "2025-03-23T18:05:06.446Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LichThiSinhVien.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Models\\LichThiSinhVien.cs",
-              "RelativeDocumentMoniker": "QLKT\\Models\\LichThiSinhVien.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Models\\LichThiSinhVien.cs",
-              "RelativeToolTip": "QLKT\\Models\\LichThiSinhVien.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 33,
+              "Title": "PhanCongCoiThi.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Models\\PhanCongCoiThi.cs",
+              "RelativeDocumentMoniker": "QLKT\\Models\\PhanCongCoiThi.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Models\\PhanCongCoiThi.cs",
+              "RelativeToolTip": "QLKT\\Models\\PhanCongCoiThi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T05:00:09.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CamDoanController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Controllers\\CamDoanController.cs",
-              "RelativeDocumentMoniker": "QLKT\\Controllers\\CamDoanController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Controllers\\CamDoanController.cs*",
-              "RelativeToolTip": "QLKT\\Controllers\\CamDoanController.cs*",
-              "ViewState": "AgIAADcAAAAAAAAAAAAmwEcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T04:29:34.948Z",
+              "WhenOpened": "2025-03-23T18:05:00.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "chuabosung.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Views\\CamDoan\\chuabosung.cshtml",
-              "RelativeDocumentMoniker": "QLKT\\Views\\CamDoan\\chuabosung.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Views\\CamDoan\\chuabosung.cshtml*",
-              "RelativeToolTip": "QLKT\\Views\\CamDoan\\chuabosung.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 34,
+              "Title": "NoiDungCamDoan.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Models\\NoiDungCamDoan.cs",
+              "RelativeDocumentMoniker": "QLKT\\Models\\NoiDungCamDoan.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Models\\NoiDungCamDoan.cs",
+              "RelativeToolTip": "QLKT\\Models\\NoiDungCamDoan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T18:04:31.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\SuCo\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Views\\SuCo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\SuCo\\Index.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Views\\SuCo\\Index.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T04:23:33.436Z",
+              "WhenOpened": "2025-03-23T18:00:47.499Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SinhVien.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Models\\SinhVien.cs",
-              "RelativeDocumentMoniker": "QLKT\\Models\\SinhVien.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Models\\SinhVien.cs",
-              "RelativeToolTip": "QLKT\\Models\\SinhVien.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAiwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T03:37:39.76Z",
+              "DocumentIndex": 26,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\SuCo\\Delete.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Views\\SuCo\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\SuCo\\Delete.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Views\\SuCo\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T18:00:39.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\SuCo\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Views\\SuCo\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\SuCo\\Create.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Views\\SuCo\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T18:00:28.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\SinhVien\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Views\\SinhVien\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\SinhVien\\Index.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Views\\SinhVien\\Index.cshtml",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAYwHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T18:00:24.249Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\SinhVien\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Views\\SinhVien\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\SinhVien\\Edit.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Views\\SinhVien\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T18:00:15.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\SinhVien\\Delete.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Views\\SinhVien\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\SinhVien\\Delete.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Views\\SinhVien\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T18:00:04.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\SinhVien\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Views\\SinhVien\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\SinhVien\\Create.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Views\\SinhVien\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T17:59:55.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T17:59:47.811Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T17:59:40.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\Settings\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Views\\Settings\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\Settings\\Index.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Views\\Settings\\Index.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T17:59:24.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\Import\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Views\\Import\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\Import\\Index.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Views\\Import\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T17:59:14.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T17:59:12.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T17:53:30.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20250322073355_ExtendIdentityUser.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Migrations\\20250322073355_ExtendIdentityUser.cs",
+              "RelativeDocumentMoniker": "QLKT\\Migrations\\20250322073355_ExtendIdentityUser.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Migrations\\20250322073355_ExtendIdentityUser.cs",
+              "RelativeToolTip": "QLKT\\Migrations\\20250322073355_ExtendIdentityUser.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T17:52:21.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "QLKT\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "QLKT\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAcCAAAAAAAAAAAuwBsCAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T17:52:10.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "QLKT\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "QLKT\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-03-23T17:50:57.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T17:50:49.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T17:50:46.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T17:50:44.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T17:50:41.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T17:49:39.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T17:35:43.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T17:34:15.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T14:30:42.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ViPhamController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Controllers\\ViPhamController.cs",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Controllers\\ViPhamController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Controllers\\ViPhamController.cs",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Controllers\\ViPhamController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T14:17:17.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "SinhVienController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Controllers\\SinhVienController.cs",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Controllers\\SinhVienController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Controllers\\SinhVienController.cs",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Controllers\\SinhVienController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T14:17:11.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SuCoController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Controllers\\SuCoController.cs",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Controllers\\SuCoController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Controllers\\SuCoController.cs",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Controllers\\SuCoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T14:17:06.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "SettingsController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Controllers\\SettingsController.cs",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Controllers\\SettingsController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Controllers\\SettingsController.cs",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Controllers\\SettingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T14:17:01.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ImportController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Controllers\\ImportController.cs",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Controllers\\ImportController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Controllers\\ImportController.cs",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Controllers\\ImportController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T14:16:55.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Models\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Models\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Models\\Home\\Index.cshtml",
+              "RelativeToolTip": "QLKT\\Models\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T13:55:27.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Models\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Models\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Models\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "QLKT\\Models\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T13:55:25.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T08:58:10.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Program.cs",
               "RelativeDocumentMoniker": "QLKT\\Program.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Program.cs",
               "RelativeToolTip": "QLKT\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T03:00:05.173Z"
+              "WhenOpened": "2025-03-22T08:55:18.65Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "QLKT\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "QLKT\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAABgAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAH8AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T02:59:42.996Z"
+              "WhenOpened": "2025-03-22T08:42:46.025Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "SettingsController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Controllers\\SettingsController.cs",
-              "RelativeDocumentMoniker": "QLKT\\Controllers\\SettingsController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Controllers\\SettingsController.cs",
-              "RelativeToolTip": "QLKT\\Controllers\\SettingsController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAkwDQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 53,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "QLKT\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T02:53:17.603Z"
+              "WhenOpened": "2025-03-22T08:42:42.151Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Views\\Settings\\Index.cshtml",
-              "RelativeDocumentMoniker": "QLKT\\Views\\Settings\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Views\\Settings\\Index.cshtml",
-              "RelativeToolTip": "QLKT\\Views\\Settings\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 36,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T02:50:54.603Z"
+              "WhenOpened": "2025-03-22T08:42:35.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAHcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T08:42:26.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T08:39:52.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "QLKT\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "QLKT\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T08:00:13.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "chuabosung.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\CamDoan\\chuabosung.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Views\\CamDoan\\chuabosung.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\CamDoan\\chuabosung.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Views\\CamDoan\\chuabosung.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T07:56:28.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\CamDoan\\Add.cshtml",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Views\\CamDoan\\Add.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Views\\CamDoan\\Add.cshtml",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Views\\CamDoan\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T07:56:25.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T07:54:48.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CamDoanController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Controllers\\CamDoanController.cs",
+              "RelativeDocumentMoniker": "QLKT\\Areas\\Admin\\Controllers\\CamDoanController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C#\\QLKT\\QLKT\\Areas\\Admin\\Controllers\\CamDoanController.cs",
+              "RelativeToolTip": "QLKT\\Areas\\Admin\\Controllers\\CamDoanController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T07:54:42.455Z"
             }
           ]
         }

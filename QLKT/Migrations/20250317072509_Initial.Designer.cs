@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using QLKT.Data;
 
+
 #nullable disable
 
 namespace QLKT.Migrations
