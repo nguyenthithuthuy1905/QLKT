@@ -1,0 +1,34 @@
+﻿@model QLKT.Models.SinhVien
+
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Sửa thông tin sinh viên";
+}
+
+<h2>Sửa thông tin sinh viên</h2>
+
+<form method="post">
+    <input type="hidden" name="MASV" value="@Model.MASV" />
+
+    <div class="form-group">
+        <label>Họ và tên</label>
+        <input type="text" name="HoLot" class="form-control" value="@Model.HoLot" required />
+    </div>
+
+    <div class="form-group">
+        <label>Tên Sinh Viên</label>
+        <input type="text" name="TenSV" class="form-control" value="@Model.TenSV" required />
+    </div>
+
+    <div class="form-group">
+        <label>Lớp</label>
+        <input type="text" name="MaLop" class="form-control" value="@Model.MaLop" required />
+    </div>
+
+    <div class="form-group">
+        <label>Ngày sinh</label>
+        <input type="date" name="NgaySinh" class="form-control" value="@Model.NgaySinh.ToString("yyyy-MM-dd")" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Lưu</button>
+</form>
