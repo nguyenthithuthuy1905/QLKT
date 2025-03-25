@@ -54,7 +54,7 @@
         <textarea name="NoiDungViPham" class="form-control" required></textarea>
     </div>
 
-    <button type="submit" class="btn btn-success">Lưu</button>
+    <button type="submit" class="btn btn-success" onclick="return confirmSave()">Lưu thông tin</button>
 </form>
 
 
@@ -87,4 +87,14 @@
                 alert("Lỗi khi tìm sinh viên.");
             });
     });
+</script>
+<script type="text/javascript">
+    function confirmSave() {
+        // Hiển thị hộp thoại xác nhận
+        var result = confirm("Bạn có chắc chắn muốn lưu thông tin không?");
+        if (result) {
+            return true;  // Form sẽ được submit
+        }
+        return false;  // Ngừng gửi form
+    }
 </script>

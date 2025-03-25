@@ -38,6 +38,14 @@ namespace QLKT.Areas.Admin.Controllers
 
             try
             {
+                // Kiểm tra lại nếu dữ liệu hợp lệ, không có giá trị null trong các trường cần thiết
+                if (viPham.MaLoaiViPham == null) // Kiểm tra nếu có thuộc tính cần thiết bị thiếu
+                {
+                    TempData["Error"] = "Loại vi phạm không hợp lệ!";
+                    return View(viPham);
+                }
+
+                // Thêm vi phạm vào cơ sở dữ liệu
                 _context.ViPhamQuyChes.Add(viPham);
                 await _context.SaveChangesAsync();
 
@@ -46,11 +54,13 @@ namespace QLKT.Areas.Admin.Controllers
             }
             catch (Exception ex)
             {
+                // In ra lỗi nếu có vấn đề trong quá trình lưu vào DB
                 Console.WriteLine("Lỗi lưu DB: " + ex.Message);
                 TempData["Error"] = "Đã xảy ra lỗi khi lưu dữ liệu!";
                 return View(viPham);
             }
         }
+
 
 
         [HttpGet]

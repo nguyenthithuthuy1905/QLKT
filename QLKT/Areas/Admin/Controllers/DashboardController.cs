@@ -43,6 +43,14 @@ namespace QLKT.Areas.Admin.Controllers
                     Count = g.Count()
                 }).ToListAsync();
 
+            var commitmentStats = await _context.CamDoans
+                .GroupBy(c => c.MaLop)  
+                .Select(g => new
+                {
+                    Type = g.Key.ToString(),
+                    Count = g.Count()
+                }).ToListAsync();
+
             ViewBag.TotalStudents = totalStudents;
             ViewBag.TotalViolations = totalViolations;
             ViewBag.TotalIncidents = totalIncidents;
@@ -51,8 +59,11 @@ namespace QLKT.Areas.Admin.Controllers
             // Chuyển đổi sang JSON để tránh lỗi khi render trên View
             ViewBag.ViolationStats = JsonSerializer.Serialize(violationStats);
             ViewBag.IncidentStats = JsonSerializer.Serialize(incidentStats);
+            ViewBag.CommitmentStats = JsonSerializer.Serialize(commitmentStats);
 
-            return View(); // 👈 Đảm bảo return View() đúng
+            return View();
         }
+
+
     }
 }

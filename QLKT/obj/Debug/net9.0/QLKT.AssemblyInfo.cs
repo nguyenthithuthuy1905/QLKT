@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QLKT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04b0a13fc719839bebcb35e6525517efa66b45dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+906953ebd6dc346e88776b11507fd758a541112b")]
 [assembly: System.Reflection.AssemblyProductAttribute("QLKT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QLKT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

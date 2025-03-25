@@ -3,8 +3,6 @@
     ViewData["Title"] = "Dashboard";
 }
 
-
-
 <div class="row">
     <div class="col-md-3">
         <div class="card bg-primary text-white">
@@ -43,11 +41,14 @@
 <h2>Biểu đồ thống kê</h2>
 
 <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-4">
         <canvas id="violationChart"></canvas>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
         <canvas id="incidentChart"></canvas>
+    </div>
+    <div class="col-md-4">
+        <canvas id="commitmentChart"></canvas>
     </div>
 </div>
 
@@ -56,6 +57,7 @@
     document.addEventListener("DOMContentLoaded", function () {
         var violationData = JSON.parse('@Html.Raw(ViewBag.ViolationStats)');
         var incidentData = JSON.parse('@Html.Raw(ViewBag.IncidentStats)');
+        var commitmentData = JSON.parse('@Html.Raw(ViewBag.CommitmentStats)');
 
         var violationChart = new Chart(document.getElementById("violationChart"), {
             type: 'bar',
@@ -77,6 +79,18 @@
                     label: 'Số lượng sự cố',
                     data: incidentData.map(i => i.Count),
                     backgroundColor: 'orange'
+                }]
+            }
+        });
+
+        var commitmentChart = new Chart(document.getElementById("commitmentChart"), {
+            type: 'bar',
+            data: {
+                labels: commitmentData.map(c => c.Type),
+                datasets: [{
+                    label: 'Số lượng cam đoan',
+                    data: commitmentData.map(c => c.Count),
+                    backgroundColor: 'green'
                 }]
             }
         });

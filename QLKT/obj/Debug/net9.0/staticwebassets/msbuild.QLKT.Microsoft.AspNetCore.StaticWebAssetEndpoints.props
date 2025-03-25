@@ -1696,13 +1696,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\QLKT.o02ampfiqn.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-uHLtf3JXoIJ041s\u002BhWbDa0AWWWmfxW/b3UFv0mvsTbU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1134"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022uHLtf3JXoIJ041s\u002BhWbDa0AWWWmfxW/b3UFv0mvsTbU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Mar 2025 21:42:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1134"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022uHLtf3JXoIJ041s\u002BhWbDa0AWWWmfxW/b3UFv0mvsTbU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 10:06:42 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/QLKT/QLKT.o02ampfiqn.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\QLKT.o02ampfiqn.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o02ampfiqn"},{"Name":"integrity","Value":"sha256-uHLtf3JXoIJ041s\u002BhWbDa0AWWWmfxW/b3UFv0mvsTbU="},{"Name":"label","Value":"_content/QLKT/QLKT.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1134"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022uHLtf3JXoIJ041s\u002BhWbDa0AWWWmfxW/b3UFv0mvsTbU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Mar 2025 21:42:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1134"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022uHLtf3JXoIJ041s\u002BhWbDa0AWWWmfxW/b3UFv0mvsTbU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 10:06:42 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/QLKT/quote.5culzm7lho.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\quote.html'))</AssetFile>

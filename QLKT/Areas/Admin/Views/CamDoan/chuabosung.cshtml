@@ -1,5 +1,5 @@
 ﻿@* Form Nhập MSSV và tự động điền thông tin *@
-<form asp-action="Create" asp-controller="CamDoan" asp-area="Admin" method="post">
+<form asp-action="ThemCamDoan" asp-controller="CamDoan" asp-area="Admin" method="post">
     <div class="form-group">
         <label for="masv">Mã số sinh viên</label>
         <input type="text" id="masv" name="maSinhVien" class="form-control" placeholder="Nhập MSSV" required />
@@ -29,8 +29,13 @@
         <label for="monhoc">Môn học</label>
         <input type="text" id="monhoc" class="form-control" disabled />
     </div>
+    <div class="form-group">
+        <label>Nội dung:</label>
+        <textarea name="NoiDungCamDoan" class="form-control" required></textarea>
+    </div>
 
-    <button type="submit" class="btn btn-primary">Lưu thông tin</button>
+    <button type="submit" class="btn btn-success" onclick="return confirmSave()">Lưu thông tin</button>
+
 </form>
 
 
@@ -78,3 +83,27 @@
 
 </script>
 
+<script type="text/javascript">
+    function confirmSave() {
+        // Hiển thị hộp thoại xác nhận
+        var result = confirm("Bạn có chắc chắn muốn lưu thông tin không?");
+        // Nếu người dùng chọn OK, thì form sẽ được gửi
+        if (result) {
+            return true;  // Form sẽ được submit
+        }
+        // Nếu người dùng chọn Cancel, form sẽ không được gửi
+        return false;
+    }
+</script>
+
+
+<script type="text/javascript">
+    function confirmSave() {
+        // Hiển thị hộp thoại xác nhận
+        var result = confirm("Bạn có chắc chắn muốn lưu thông tin không?");
+        if (result) {
+            return true;  // Form sẽ được submit
+        }
+        return false;  // Ngừng gửi form
+    }
+</script>
