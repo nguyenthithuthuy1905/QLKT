@@ -21,7 +21,11 @@
     </div>
 }
 
-<table class="table">
+<!-- Nút Thêm Sự Cố -->
+<a href="/Admin/SuCo/Create" class="btn btn-primary mt-3">Thêm Sự Cố</a>
+
+<!-- Bảng danh sách sự cố -->
+<table class="table mt-3">
     <thead>
         <tr>
             <th>Mã Sự Cố</th>
@@ -38,8 +42,8 @@
                 <td>@item.LoaiSuCo.TenLoaiSuCo</td>
                 <td>@item.NgayThi</td>
                 <td>
-                    <a href="/SuCo/SuaSuCo?id=@item.MaSuCo" class="btn btn-warning">Sửa</a>
-                    <a href="/SuCo/XoaSuCo?id=@item.MaSuCo" class="btn btn-danger">Xóa</a>
+                    <a href="/Admin/SuCo/Edit?id=@item.MaSuCo" class="btn btn-warning">Sửa</a>
+                    <a href="/Admin/SuCo/Delete?id=@item.MaSuCo" class="btn btn-danger" onclick="return confirm('Bạn chắc chắn muốn xóa sự cố này?')">Xóa</a>
                 </td>
             </tr>
         }

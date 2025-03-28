@@ -20,13 +20,27 @@ namespace QLKT.Areas.Admin.Controllers
         {
             _context = context;
         }
+        public async Task<IActionResult> Index()
+        {
+            var dsSinhVienChuaCamDoan = await _context.CamDoans
+                .Include(cd => cd.SinhVien)
+                .Include(cd => cd.SinhVien.LichThiSinhViens)
+                .ThenInclude(lt => lt.MonHoc)
+                .Include(cd => cd.SinhVien.LichThiSinhViens)
+                .ThenInclude(lt => lt.PhongThi)
+                .ToListAsync();
 
+            return View(dsSinhVienChuaCamDoan);
+        }
         public async Task<IActionResult> ChuaBoSung()
         {
             var dsSinhVienChuaCamDoan = await _context.CamDoans
-                .Where(cd => cd.NoiDungCamDoan == null || cd.NoiDungCamDoan == "")
-                .Include(cd => cd.SinhVien)
-                .ToListAsync();
+             .Where(cd => cd.NoiDungCamDoan == null || cd.NoiDungCamDoan == "")
+             .Include(cd => cd.SinhVien)
+             .Include(cd => cd.SinhVien.LichThiSinhViens)  // Bao gồm LịchThiSinhVien để lấy thông tin môn học
+             .ThenInclude(lt => lt.MonHoc)  // Bao gồm môn học từ lịch thi
+             .ToListAsync();
+
 
             return View(dsSinhVienChuaCamDoan);
         }
@@ -49,20 +63,33 @@ namespace QLKT.Areas.Admin.Controllers
             _context.CamDoans.Add(camDoan);
             await _context.SaveChangesAsync();
 
-            return RedirectToAction("ChuaBoSung");
+            //return RedirectToAction("ChuaBoSung");
+            return RedirectToAction("Index");
         }
         [HttpPost]
         public async Task<IActionResult> ThemCamDoan(string maSinhVien)
         {
             if (string.IsNullOrEmpty(maSinhVien))
             {
-                return BadRequest();
+                TempData["Error"] = "Mã sinh viên không được để trống";
+                return RedirectToAction("ChuaBoSung");
+            }
+
+            // Kiểm tra xem cam đoan đã tồn tại chưa
+            var camDoanExist = await _context.CamDoans
+                .AnyAsync(cd => cd.MaSV == maSinhVien);
+
+            if (camDoanExist)
+            {
+                TempData["Error"] = "Sinh viên này đã có cam đoan trong hệ thống";
+                return RedirectToAction("ChuaBoSung");
             }
 
             var sinhVien = await _context.SinhViens.FindAsync(maSinhVien);
             if (sinhVien == null)
             {
-                return NotFound();
+                TempData["Error"] = "Không tìm thấy sinh viên";
+                return RedirectToAction("ChuaBoSung");
             }
 
             var camDoan = new CamDoan
@@ -70,13 +97,13 @@ namespace QLKT.Areas.Admin.Controllers
                 MaSV = sinhVien.MASV,
                 NgayThi = DateTime.Now,
                 NoiDungCamDoan = "Đã bổ sung cam đoan",
-                MaLop = sinhVien.MaLop // ✅ gán thêm dòng này
+                MaLop = sinhVien.MaLop
             };
-
 
             _context.CamDoans.Add(camDoan);
             await _context.SaveChangesAsync();
 
+            TempData["Success"] = "Thêm cam đoan thành công";
             return RedirectToAction("ChuaBoSung");
         }
 

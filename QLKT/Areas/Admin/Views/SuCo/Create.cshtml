@@ -8,9 +8,16 @@
 <h2>Thêm sự cố bất thường</h2>
 
 <form method="post">
+    @Html.AntiForgeryToken()
+
     <div class="form-group">
         <label>Mã sự cố</label>
         <input type="text" name="MaSuCo" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Mã kỳ thi</label>
+        <input type="text" name="MaKyThi" id="MaKyThi" class="form-control" required />
     </div>
 
     <div class="form-group">
@@ -28,5 +35,45 @@
         <input type="date" name="NgayThi" class="form-control" required />
     </div>
 
+    <div class="form-group">
+        <label>Giờ thi</label>
+        <input type="time" name="GioThi" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Phòng thi</label>
+        <input type="text" name="MaPH" id="phongthi" class="form-control" disabled />
+    </div>
+
+    <div class="form-group">
+        <label>Nội dung sự cố</label>
+        <textarea name="NoiDungSuCo" class="form-control" required></textarea>
+    </div>
+
     <button type="submit" class="btn btn-primary">Lưu</button>
 </form>
+
+<script>
+    // Event listener when MaKyThi is entered
+    document.getElementById('MaKyThi').addEventListener('change', function() {
+        const maKyThi = this.value.trim();
+        if (!maKyThi) return;
+
+        fetch(`/Admin/SuCo/GetStudentInfo?maSV=${encodeURIComponent(maKyThi)}`)
+            .then(response => response.json())
+            .then(data => {
+                // Update the form fields based on the returned data
+                if (data) {
+                    document.getElementById('phongthi').value = data.tenPhong || 'Không có phòng thi';
+                    document.getElementById('gioThi').value = data.gioThi || 'Không có giờ thi';
+                    document.getElementById('monhoc').value = data.tenMonHoc || 'Không có môn học';
+                } else {
+                    alert("Không tìm thấy thông tin kỳ thi!");
+                }
+            })
+            .catch(err => {
+                console.error('Error fetching data:', err);
+                alert("Có lỗi xảy ra khi lấy thông tin kỳ thi!");
+            });
+    });
+</script>

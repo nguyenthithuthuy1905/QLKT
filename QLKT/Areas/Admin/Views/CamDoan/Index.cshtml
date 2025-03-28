@@ -1,0 +1,64 @@
+﻿@model IEnumerable<QLKT.Models.CamDoan>
+
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Danh sách cam đoan chưa bổ sung";
+}
+
+<h2>Danh sách sinh viên chưa bổ sung cam đoan</h2>
+
+<!-- Nút Thêm cam đoan ở phía trên -->
+<div class="mb-3">
+    <a href="@Url.Action("chuabosung", "CamDoan", new { area = "Admin" })" class="btn btn-success">Thêm cam đoan mới</a>
+</div>
+
+<!-- Thông báo nếu có -->
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Success"]
+    </div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+}
+
+<!-- Bảng hiển thị danh sách sinh viên chưa bổ sung cam đoan -->
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Mã SV</th>
+            <th>Họ và tên</th>
+            <th>Lớp</th>
+            <th>Ngày thi</th>
+            <th>Giờ thi</th>
+            <th>Phòng thi</th>
+            <th>Môn học</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.SinhVien?.MASV</td>
+                <td>@item.SinhVien?.HoLot @item.SinhVien?.TenSV</td>
+                <td>@item.SinhVien?.MaLop</td>
+                <td>@(item.SinhVien?.LichThiSinhViens?.FirstOrDefault()?.NgayThi.ToString("yyyy-MM-dd") ?? "Không có lịch thi")</td>
+                <td>@(item.SinhVien?.LichThiSinhViens?.FirstOrDefault()?.GioThi.ToString(@"hh\:mm") ?? "Không có giờ thi")</td>
+                <td>@(item.SinhVien?.LichThiSinhViens?.FirstOrDefault()?.PhongThi?.TenPH ?? "Không có phòng thi")</td>
+                <td>@(item.SinhVien?.LichThiSinhViens?.FirstOrDefault()?.MonHoc?.TenMonHoc ?? "Không có môn học")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Thông báo khi không có dữ liệu -->
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        Không có sinh viên nào chưa bổ sung cam đoan.
+    </div>
+}

@@ -1,43 +1,58 @@
-﻿<form asp-action="Create" asp-controller="ViPham" asp-area="Admin" method="post">
+﻿@model QLKT.Models.ViPhamQuyChe
+@* <input type="text" id="phongthi" class="form-control" disabled /> *@
+@* <input type="hidden" id="maph" name="MaPH" /> *@
+
+
+<h2>Thêm Vi Phạm</h2>
+
+<form asp-action="Create" asp-controller="ViPham" asp-area="Admin" method="post">
     @Html.AntiForgeryToken()
 
+    <!-- Mã SV -->
     <div class="form-group">
         <label>Mã sinh viên:</label>
         <input type="text" id="masv" name="MaSV" class="form-control" required />
     </div>
 
+    <!-- Họ tên (hiển thị) -->
     <div class="form-group">
         <label>Họ và tên:</label>
         <input type="text" id="hoten" class="form-control" disabled />
     </div>
 
+    <!-- Lớp -->
     <div class="form-group">
         <label>Lớp:</label>
         <input type="text" id="lop" class="form-control" disabled />
         <input type="hidden" id="malop" name="MaLop" />
     </div>
 
+    <!-- Môn học -->
     <div class="form-group">
         <label>Môn học:</label>
         <input type="text" id="monhoc" class="form-control" disabled />
     </div>
 
+    <!-- Ngày thi -->
     <div class="form-group">
         <label>Ngày thi:</label>
         <input type="date" id="ngaythi" name="NgayThi" class="form-control" required />
     </div>
 
+    <!-- Giờ thi -->
     <div class="form-group">
         <label>Giờ thi:</label>
         <input type="time" id="giothi" name="GioThi" class="form-control" required />
     </div>
 
+    <!-- Phòng thi -->
     <div class="form-group">
         <label>Phòng thi:</label>
         <input type="text" id="phongthi" class="form-control" disabled />
         <input type="hidden" id="maph" name="MaPH" />
     </div>
 
+    <!-- Loại vi phạm -->
     <div class="form-group">
         <label>Loại vi phạm:</label>
         <select name="MaLoaiViPham" class="form-control" required>
@@ -49,14 +64,14 @@
         </select>
     </div>
 
+    <!-- Nội dung -->
     <div class="form-group">
         <label>Nội dung:</label>
         <textarea name="NoiDungViPham" class="form-control" required></textarea>
     </div>
 
-    <button type="submit" class="btn btn-success" onclick="return confirmSave()">Lưu thông tin</button>
+    <button type="submit" class="btn btn-success" onclick="return confirm('Xác nhận lưu vi phạm?')">Lưu thông tin</button>
 </form>
-
 
 <script>
     document.getElementById("masv").addEventListener("change", function () {
@@ -71,12 +86,12 @@
                     document.getElementById("lop").value = data.maLop || "";
                     document.getElementById("malop").value = data.maLop || "";
                     document.getElementById("monhoc").value = data.tenMonHoc || "";
-                    document.getElementById("phongthi").value = data.tenPhong || "";
+                    document.getElementById("ngaythi").value = data.ngayThi || "";
+                    document.getElementById("giothi").value = data.gioThi || "";
+                    document.getElementById("phongthi").value = data.phongThi || "";
                     document.getElementById("maph").value = data.maPhong || "";
-                    if (data.ngayThi) document.getElementById("ngaythi").value = data.ngayThi;
-                    if (data.gioThi) document.getElementById("giothi").value = data.gioThi;
                 } else {
-                    alert("Không tìm thấy sinh viên hoặc lịch thi.");
+                    alert(data.error || "Không tìm thấy dữ liệu");
                     ["hoten", "lop", "malop", "monhoc", "ngaythi", "giothi", "phongthi", "maph"].forEach(id => {
                         document.getElementById(id).value = "";
                     });
@@ -84,17 +99,7 @@
             })
             .catch(err => {
                 console.error(err);
-                alert("Lỗi khi tìm sinh viên.");
+                alert("Lỗi khi lấy thông tin sinh viên.");
             });
     });
-</script>
-<script type="text/javascript">
-    function confirmSave() {
-        // Hiển thị hộp thoại xác nhận
-        var result = confirm("Bạn có chắc chắn muốn lưu thông tin không?");
-        if (result) {
-            return true;  // Form sẽ được submit
-        }
-        return false;  // Ngừng gửi form
-    }
 </script>

@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using QLKT.Models;
 using CsvHelper;
-using OfficeOpenXml;  // For reading Excel
+using OfficeOpenXml; // For reading Excel
 using System.Globalization;
 using System.IO;
 using System.Linq;
@@ -48,6 +48,7 @@ namespace QLKT.Areas.Admin.Controllers
                 await _context.SaveChangesAsync();
             }
 
+            TempData["Success"] = "Dữ liệu đã được nhập thành công từ CSV!";
             return RedirectToAction("Index");
         }
 
@@ -71,7 +72,7 @@ namespace QLKT.Areas.Admin.Controllers
                         HoLot = worksheet.Cells[row, 2].Text,
                         TenSV = worksheet.Cells[row, 3].Text,
                         MaLop = worksheet.Cells[row, 4].Text,
-                        NgaySinh = DateTime.Parse(worksheet.Cells[row, 5].Text)
+                        NgaySinh = DateTime.TryParse(worksheet.Cells[row, 5].Text, out DateTime date) ? date : DateTime.MinValue
                     };
 
                     _context.SinhViens.Add(sinhVien);
@@ -80,6 +81,7 @@ namespace QLKT.Areas.Admin.Controllers
                 await _context.SaveChangesAsync();
             }
 
+            TempData["Success"] = "Dữ liệu đã được nhập thành công từ Excel!";
             return RedirectToAction("Index");
         }
     }

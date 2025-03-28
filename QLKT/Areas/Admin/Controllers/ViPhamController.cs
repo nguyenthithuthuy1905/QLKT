@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿// ViPhamController.cs
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using QLKT.Areas.Admin.Models;
@@ -21,32 +22,72 @@ namespace QLKT.Areas.Admin.Controllers
             _context = context;
         }
 
+        public async Task<IActionResult> Index()
+        {
+            var violations = await _context.ViPhamQuyChes
+                .Include(v => v.SinhVien)
+                .Include(v => v.LoaiViPham)
+                .ToListAsync();
+            return View(violations);
+        }
+
         public IActionResult Create()
         {
             return View();
         }
 
+        [HttpGet]
+        public IActionResult GetStudentInfo(string maSV)
+        {
+            if (string.IsNullOrEmpty(maSV))
+                return BadRequest(new { error = "Mã sinh viên không hợp lệ." });
+
+            var student = _context.SinhViens
+                .Include(sv => sv.LichThiSinhViens)
+                    .ThenInclude(lt => lt.MonHoc)
+                .Include(sv => sv.LichThiSinhViens)
+                    .ThenInclude(lt => lt.PhongThi)
+                .FirstOrDefault(sv => sv.MASV == maSV);
+
+            if (student == null)
+                return Json(new { error = "Không tìm thấy sinh viên." });
+
+            var exam = student.LichThiSinhViens.FirstOrDefault();
+            if (exam == null)
+                return Json(new { error = "Sinh viên không có lịch thi." });
+
+            return Json(new
+            {
+                hoTen = student.HoLot + " " + student.TenSV,
+                maLop = student.MaLop,
+                tenMonHoc = exam.MonHoc?.TenMonHoc,
+                ngayThi = exam.NgayThi.ToString("yyyy-MM-dd"),
+                gioThi = exam.GioThi.ToString(@"hh\:mm"),
+                phongThi = exam.PhongThi?.TenPH,
+                maPhong = exam.MaPH
+            });
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(ViPhamQuyChe viPham)
+        public async Task<IActionResult> Create(ViPhamQuyChe viPhamQuyChe)
         {
+            Console.WriteLine("==> Dữ liệu nhận được:");
+            Console.WriteLine(Newtonsoft.Json.JsonConvert.SerializeObject(viPhamQuyChe));
+
             if (!ModelState.IsValid)
             {
+                foreach (var error in ModelState)
+                {
+                    Console.WriteLine($"{error.Key} => {string.Join(", ", error.Value.Errors.Select(e => e.ErrorMessage))}");
+                }
                 TempData["Error"] = "Dữ liệu nhập chưa hợp lệ!";
-                return View(viPham);
+                return View(viPhamQuyChe);
             }
 
             try
             {
-                // Kiểm tra lại nếu dữ liệu hợp lệ, không có giá trị null trong các trường cần thiết
-                if (viPham.MaLoaiViPham == null) // Kiểm tra nếu có thuộc tính cần thiết bị thiếu
-                {
-                    TempData["Error"] = "Loại vi phạm không hợp lệ!";
-                    return View(viPham);
-                }
-
-                // Thêm vi phạm vào cơ sở dữ liệu
-                _context.ViPhamQuyChes.Add(viPham);
+                _context.ViPhamQuyChes.Add(viPhamQuyChe);
                 await _context.SaveChangesAsync();
 
                 TempData["Success"] = "Thêm vi phạm thành công!";
@@ -54,43 +95,10 @@ namespace QLKT.Areas.Admin.Controllers
             }
             catch (Exception ex)
             {
-                // In ra lỗi nếu có vấn đề trong quá trình lưu vào DB
-                Console.WriteLine("Lỗi lưu DB: " + ex.Message);
-                TempData["Error"] = "Đã xảy ra lỗi khi lưu dữ liệu!";
-                return View(viPham);
+                Console.WriteLine("Lỗi khi lưu vào DB: " + ex.Message);
+                TempData["Error"] = "Lỗi khi lưu dữ liệu: " + ex.Message;
+                return View(viPhamQuyChe);
             }
-        }
-
-
-
-        [HttpGet]
-        public async Task<IActionResult> GetStudentInfo(string maSV)
-        {
-            var sinhVien = await _context.SinhViens
-                .Where(sv => sv.MASV == maSV)
-                .FirstOrDefaultAsync();
-
-            if (sinhVien == null)
-            {
-                return Json(new { error = "Không tìm thấy sinh viên" });
-            }
-
-            var lichThi = await _context.LichThiSinhViens
-                .Where(lt => lt.MaSV == maSV)
-                .Include(lt => lt.MonHoc)
-                .Include(lt => lt.PhongThi)
-                .FirstOrDefaultAsync();
-
-            return Json(new
-            {
-                hoTen = $"{sinhVien.HoLot} {sinhVien.TenSV}",
-                maLop = sinhVien.MaLop,
-                ngayThi = lichThi?.NgayThi.ToString("yyyy-MM-dd"),
-                gioThi = lichThi?.GioThi.ToString(@"hh\:mm"),
-                tenMonHoc = lichThi?.MonHoc.TenMonHoc,
-                tenPhong = lichThi?.PhongThi?.TenPH,
-                maPhong = lichThi?.MaPH
-            });
         }
     }
 }
